@@ -7,7 +7,7 @@
  *curl http://localhost:80*
  ![Nginx Server Status](./images/nginx-server-status.png)
 
- 
+
  `sudo apt install mysql-server`
  `sudo mysql`
  ![mysql ouput1](./images/mysql%20password%20output.png)
