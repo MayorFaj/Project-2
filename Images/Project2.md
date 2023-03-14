@@ -1,6 +1,5 @@
 # Documentation of Project 2
 
-### Installing nginx package
 `sudo apt update`
 `sudo apt install nginx`
 `sudo systemctl status nginx`
@@ -9,7 +8,7 @@
  ![Nginx Server Status](./images/nginx-server-status.png)
 
 
-### Installing DBMS to be able to store and manage data for your site in a relational database
+
  `sudo apt install mysql-server`
  `sudo mysql`
  ![mysql ouput1](./images/mysql%20password%20output.png)
@@ -18,11 +17,9 @@
  ![mysql server installed](./images/mysql%20server%20installed.png)
 
 
-### Installing PHP to proess code and generate dynamic content for the web browser
+
 `sudo apt install php-fpm php-mysql`
 
-
-### configuring nginx to use php processor
 `sudo mkdir /var/www/projectLEMP`
 `sudo chown -R $USER:$USER /var/www/projectLEMP`
 `sudo nano /etc/nginx/sites-available/projectLEMP`
@@ -35,8 +32,7 @@
 ![echo text returned](./images/hello%20LEMP%20word.png)
 
 
-### Testing php with nginx
 `sudo nano /var/www/projectLEMP/info.php`
 `<?php
 phpinfo();`
-[My Nginx website url](http://18.119.123.254/info.php)
+- [Nginx website url](http://18.119.123.254/info.php)
