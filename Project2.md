@@ -95,7 +95,7 @@ mysql> );`
 
 `<?php
 $user = "example_user";
-$password = "password";
+$password = "Password.282017";
 $database = "example_database";
 $table = "todo_list";
 try {
@@ -109,4 +109,8 @@ try {
     print "Error!: " . $e->getMessage() . "<br/>";
     die();
 }`
+
+![Todo Output](./Images/Todo%20Output2.png)
+
+
 
